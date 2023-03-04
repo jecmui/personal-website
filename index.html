@@ -1,45 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <!--charset attribute: specifies character encoding for this HTML document-->
     <title>@jecmui</title>
+    <link rel="icon" type="image/x-icon" href="assets/keroppi-favicon.png">
+    <!--this icon is called a favicon-->
 </head>
 
 <body>
-    <section id="menu">
-        <h1>jessica's website
-        </h1>
-        <div id="introduction">
-            <figure id="selfPortrait">
-                <img src="/assets/IMG_0375.jpg" width="200">
-                <figcaption><em>me, summer 2020</em></figcaption>
-            </figure>
-            <p>
-                Hi! I'm Jessica and I am an aspiring web developer with a focus on front-end development, currently
-                studying computer science at the University at Buffalo. This is a personal website originally designed
-                to further experience working with an IDE, Github, HTML, CSS, and JavaScript. I aim to continuously
-                update this project as my knowledge advances.
-            </p>
-        </div>
-        <div id="socials">
-            <p>find me on:</p>
-            <ul>
-                <li>LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/jecmui/">@jecmui</a></li>
-                <li>Github: <a target="_blank" href="https://github.com/jecmui">@jecmui</a></li>
-            </ul>
-        </div>
-    </section>
-    <section id="contactForm">
-        <p>send me a message!</p>
-        <!--TODO: make contact form functional w/ javascript-->
-        <form>
-            <input id="name" type="text" name="name" placeholder="name" required> <br />
-            <input id="email" type="email" name="email" placeholder="email" required><br />
-            <input id="message" type="text" name="message" placeholder="message" required><br />
-            <button type="submit">submit</button>
-        </form>
-    </section>
+    <main>
+        <section id="menu">
+            <h1>jessica's website
+            </h1>
+            <div id="introduction">
+                <figure id="selfPortrait">
+                    <img src="/assets/IMG_0375.jpg" width="200">
+                    <figcaption><em>me, summer 2020</em></figcaption>
+                </figure>
+                <p>
+                    Hi! I'm Jessica and I am an aspiring web developer with a focus on front-end development, currently
+                    studying computer science at the University at Buffalo. This is a personal website originally
+                    designed
+                    to further experience working with an IDE, Github, HTML, CSS, and JavaScript. I aim to continuously
+                    update this project as my knowledge advances.
+                </p>
 
+            </div>
+        </section>
+        <section id="contactForm">
+            <p>send me a message!</p>
+            <!--TODO: make contact form functional w/ javascript-->
+            <form>
+                <input id="name" type="text" name="name" placeholder="name" required> <br />
+                <input id="email" type="email" name="email" placeholder="email" required><br />
+                <input id="message" type="text" name="message" placeholder="message" required><br />
+                <button type="submit">submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Find me on: <a href="https://www.linkedin.com/in/jecmui">LinkedIn</a> | <a
+                href="https://github.com/jecmui">Github</a>
+        </p>
+    </footer>
 </body>
 
 
