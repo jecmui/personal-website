@@ -1,0 +1,21 @@
+/*commenting :)*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    background-color: white;
+}
+
+p {
+    font-size: 14px;
+}
+
+.intro {
+    padding-inline: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: blanchedalmond;
+}

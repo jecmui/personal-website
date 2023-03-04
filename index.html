@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <!--charset attribute: specifies character encoding for this HTML document-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--ensuring text-align, formatting, etc. looks the same across devices-->
     <title>@jecmui</title>
     <link rel="icon" type="image/x-icon" href="assets/keroppi-favicon.png">
     <!--this icon is called a favicon-->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -14,11 +17,11 @@
         <section id="menu">
             <h1>jessica's website
             </h1>
-            <div id="introduction">
-                <figure id="selfPortrait">
-                    <img src="/assets/IMG_0375.jpg" width="200">
-                    <figcaption><em>me, summer 2020</em></figcaption>
-                </figure>
+            <figure id="selfPortrait">
+                <img src="/assets/IMG_0375.jpg" width="200">
+                <figcaption><em>me, summer 2020</em></figcaption>
+            </figure>
+            <div id="introduction" class="intro">
                 <p>
                     Hi! I'm Jessica and I am an aspiring web developer with a focus on front-end development, currently
                     studying computer science at the University at Buffalo. This is a personal website originally
@@ -26,7 +29,6 @@
                     to further experience working with an IDE, Github, HTML, CSS, and JavaScript. I aim to continuously
                     update this project as my knowledge advances.
                 </p>
-
             </div>
         </section>
         <section id="contactForm">
